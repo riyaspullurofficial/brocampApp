@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="3sp">
     <LinearLayout
-        android:id="@+id/cardRahulTVStudentList"
+
+        android:id="@+id/cardTVStudentListLinear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"

@@ -33,9 +33,9 @@ class StudentsListView : AppCompatActivity() {
             startActivity(Intent(this,AdminLogin::class.java))
             finish()
         }
-        stdLstBnding.recyclerviewStudentlist.setOnClickListener {
-            startActivity(Intent(this,StudentsFullDeatails::class.java))
-        }
+//        stdLstBnding.recyclerviewStudentlist.setOnClickListener {
+//            startActivity(Intent(this,StudentsFullDeatails::class.java))
+//        }
 
 /*
         var xyx= arrayListOf<StudentListViewDataClass>()

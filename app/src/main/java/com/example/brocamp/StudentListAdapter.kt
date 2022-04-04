@@ -33,9 +33,7 @@ class StudentListAdapter(cnx: Context, xyx: ArrayList<StudentListViewDataClass>)
         holder.mobileno.text=u.mobileNum.toString()
         holder.registSel.text=u.register
 
-        holder.names.setOnClickListener {
-
-        }
+        
 
     }
 
