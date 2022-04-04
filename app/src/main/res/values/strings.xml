@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BRO CAMP</string>
+    <string name="brocamp_sps">BROCAMP(SPS)</string>
+    <string name="no_tution_fee_upfront_n_pay_only_when_you_earn">No Tution Fee Upfront, \n Pay only when You Earn.</string>
+    <string name="we_have_learnt_from_others_your_will_learn_from_n_us_and_some_one_else_will_learn_from_you">We have learnt from others. Your will learn from\n us. And some one else will learn from you.</string>
+    <string name="title_activity_map_brototype_kochi">Brototype Kochi Location</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="Year_prompt">Choose a Year</string>
+    <string-array name="Year_arrays">
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+    </string-array>
+
+    <string name="month_prompt">Choose a Month</string>
+    <string-array name="month_arrays">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="Gender_prompt">Gender</string>
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

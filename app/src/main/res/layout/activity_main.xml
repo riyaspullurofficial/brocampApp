@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/brocamp_sps"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.009" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="by"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_marginRight="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.262"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="BRO"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.409"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="TOTYPE"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.67"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/spswhat"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_margin="20sp"
+                android:background="@drawable/whatsisspsimage"
+                android:src="@drawable/play_icon"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/no_tution_fee_upfront_n_pay_only_when_you_earn"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="From Zero to high paid software \n Engineer in 180 days"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="18dp">
+                <TextView
+                    android:id="@+id/applyNowBtn"
+                    android:layout_marginLeft="20sp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/messagebackgroundcross"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="Apply Now"
+                    />
+                <TextView
+                    android:id="@+id/contactusBtn"
+                    android:layout_marginLeft="100sp"
+                    android:gravity="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/messagebackgroundcross"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="Contact Us"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="(NB: Read all the FAQs carefully \n before you submit the application" />
+            <TextView
+                android:id="@+id/adminBtn"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/messagebackgroundcross"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:text="Admin"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10sp"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="720dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400sp"
+                    android:layout_marginTop="20sp"
+                    android:background="#F3F3F3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:gravity="center"
+                        android:text="Features"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="180sp"
+                        android:layout_margin="18sp"
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_margin="10sp"
+                                android:background="@drawable/apply_button_background"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/peoples"
+                                android:padding="5sp"
+                                app:tint="@color/white"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:text="Win Like an Army" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="We work as a team because we get \n paid only when you get paid."
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="180sp"
+                        android:layout_margin="18sp"
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_margin="10sp"
+                                android:src="@drawable/graduate"
+                                android:padding="5sp"
+                                android:scaleType="centerCrop"
+                                app:tint="@color/white"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint"
+                                android:background="@drawable/apply_button_background"
+
+
+                                 />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:text="You are the student and \n the Teacher." />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="We have learnt from others. Your will learn from \n us. And some one else will learn from you.\n"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="180sp"
+                        android:layout_margin="18sp"
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_margin="10sp"
+                                android:background="@drawable/apply_button_background"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint"
+                                android:src="@drawable/book"
+                                android:padding="8sp"
+                                app:tint="@color/white"
+                                 />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:text="No One size fit all classes" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="Freely explore the different areas of \n programming. Find what you are passionate\n about. And get after it."/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </ScrollView>
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="590sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    >
+                    <ImageView
+                        android:id="@+id/howspswork"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/howspsworkimage"
+                        android:src="@drawable/play_icon"
+                        android:layout_height="200dp"
+                        android:layout_margin="20sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SPS In Brief?"
+                        android:textColor="@color/black"
+                        android:paddingLeft="8dp"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="School of practical studies (SPS) helps the young Indian generation who had benefited nothing from our countrys poor education system by providing an intensive industry relevent training on the leading software technologies.\n\n The SPS program is completely free upfront and our students pay zero tution fee util they land a job. We believe everyone should get the right opportunities to learn, hense we do not charge any fees upfront.\n\n SPS is not just another training institute where you go learn something and leave forever. SPS is community and help the new buddies as a way of giving back."
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Life at SPS"
+                        android:paddingLeft="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="SPS is built on 3 principles i.e, Open Material Education, Self learning and Peer to Peer Learning. "
+                        />
+                </LinearLayout>
+            </ScrollView>
+            <ScrollView
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="350sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_marginTop="17sp"
+                            android:layout_width="50sp"
+                            android:layout_height="50sp"
+                            android:background="@drawable/apply_button_background"
+                            android:contentDescription="TODO"
+                            android:padding="15sp"
+                            android:src="@drawable/oneeee"
+                            android:tint="@color/white"
+                            tools:ignore="UseAppTint"
+                            app:tint="@color/white" />
+                        <LinearLayout
+                            android:layout_marginStart="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="The Ignition"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Learn all the fundamentals \n of programming (0 -30 days)."
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:paddingLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="The  Acceleration"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="During this period you   will dive\ndeep into various aspects of \n your domain(31-90 days)."
+                                />
+                        </LinearLayout>
+                        <ImageView
+                            android:layout_marginTop="17sp"
+                            android:layout_marginStart="60sp"
+                            android:layout_width="50sp"
+                            android:layout_height="50sp"
+                            android:background="@drawable/apply_button_background"
+                            android:padding="15sp"
+                            android:src="@drawable/two"
+                            android:tint="@color/white"
+                            tools:ignore="UseAppTint"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_marginTop="10sp"
+                            android:layout_width="50sp"
+                            android:layout_height="50sp"
+                            android:background="@drawable/apply_button_background"
+                            android:padding="15sp"
+                            android:src="@drawable/three"
+                            android:tint="@color/white"
+                            tools:ignore="UseAppTint"
+                            app:tint="@color/white" />
+                        <LinearLayout
+                            android:layout_marginStart="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="And the Race"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You will launch as many live \n projects as possible (91-180 days)."
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:background="#F3F3F3"
+                android:layout_height="970sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:gravity="center"
+                        android:text="What Domains You \n Can Choose"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+                   <androidx.cardview.widget.CardView
+                       android:id="@+id/card1"
+                       android:layout_marginTop="30sp"
+                       android:layout_marginLeft="20sp"
+                       android:layout_marginRight="20sp"
+                       android:padding="5dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <LinearLayout
+                           android:padding="10sp"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical">
+                           <TextView
+                               android:id="@+id/courcewebDevelopTxtVW"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="Web Development"
+                               android:textColor="@color/black"
+                               android:textStyle="bold"
+                               android:textSize="18sp"/>
+                           <TextView
+                               android:id="@+id/courcewebDevelopTxtVWsub"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="5dp"
+                               android:text="in Python / Node.js / PHP / \n .Net / Java / Go / Ktor / Ruby / React etc..."
+                               />
+                       </LinearLayout>
+                   </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courcemobile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mobile App Development"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/courcemobileSub"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="in Kotlin-Java Android / iOS / flutter / \nReact-Native etc..."
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceCyber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Cyber Security"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceAI"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Artificial Intelligence"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card5"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceML"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Machine Learning"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card6"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceDatascience"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Data Science"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card7"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceBlockChain"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Block Chain"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card8"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceVR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Augmented Reality / \nVirtual Reality"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card9"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceST"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Software Testing"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card10"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/courceDevOPs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DevOps"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="820sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:gravity="center"
+                        android:text="Want to join SPS?"
+                        android:textColor="@color/black"
+                        android:textSize="28sp"
+                        android:textStyle="bold"/>
+                    <ImageView
+                        android:id="@+id/whocanjoin"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/whocanjoinspsimage"
+                        android:src="@drawable/play_icon"
+                        android:layout_height="200sp"
+                        android:layout_margin="10sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="3 step process to join the SPS"
+                        android:textSize="20sp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_marginTop="30sp"
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Apply Online"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"/>
+                                <TextView
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Submit your application online\n and Pick an interview date which is\nconvenient for you"/>
+                            </LinearLayout>
+                            <ImageView
+                                android:layout_marginTop="17sp"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_marginLeft="10sp"
+                                android:background="@drawable/apply_button_background"
+                                android:contentDescription="TODO"
+                                android:padding="15sp"
+                                android:src="@drawable/oneeee"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint"
+                                app:tint="@color/white" />
+
+                        </LinearLayout>
+<!--                                           -->
+                        <LinearLayout
+                            android:layout_marginTop="30sp"
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_marginTop="17sp"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_marginLeft="2sp"
+                                android:background="@drawable/apply_button_background"
+                                android:contentDescription="TODO"
+                                android:padding="15sp"
+                                android:src="@drawable/two"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint"
+                                app:tint="@color/white" />
+                            <LinearLayout
+                                android:layout_marginLeft="20sp"
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="The Interview"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"/>
+                                <TextView
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Appear for the telephone \n interview.Give the best and honest \nanswers you can."/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- lllllllllllllllllllllllllll  -->
+                        <LinearLayout
+                            android:layout_marginTop="30sp"
+                            android:padding="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_marginLeft="5dp"
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Joining Mail"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"/>
+                                <TextView
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Get the joining mail if \nyou have qualified."/>
+                            </LinearLayout>
+                            <ImageView
+                                android:layout_marginTop="17sp"
+                                android:layout_width="50sp"
+                                android:layout_gravity="end"
+                                android:layout_height="50sp"
+                                android:layout_marginStart="50sp"
+                                android:background="@drawable/apply_button_background"
+                                android:contentDescription="TODO"
+                                android:padding="15sp"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint"
+                                android:src="@drawable/three"
+                                app:tint="@color/white" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="If you failed to qualify the interview, \nthen prepare well, schedule it again,\n and repeat the process until you win"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/howCost"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/costspsimage"
+                        android:src="@drawable/play_icon"
+                        android:layout_height="180sp"
+                        android:layout_margin="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:gravity="center"
+                        android:text="Convocation"
+                        android:textColor="@color/black"
+                        android:textSize="28sp"
+                        android:textStyle="bold"/>
+                    <ImageView
+                        android:id="@+id/convocationCeremoney"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/convocationceremoney"
+                        android:src="@drawable/ceremony_play_icon"
+                        android:layout_height="180sp"
+                        android:layout_margin="5sp"/>
+                </LinearLayout>
+            </ScrollView>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="5100sp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:gravity="center"
+                            android:text="FAQs"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:textStyle="bold"/>
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:background="#F3F3F3"
+                            android:padding="5dp"
+                            android:layout_height="5050sp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10sp"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Who is SPS for?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Anyone who wants to learn \n computer Programming and \nbuild a good carrer as a \nsoftware engineer."
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Do I need any prior \nknowledge / experience in computer programming to join SPS?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No, you dont require any prior knowledge \n experience in computer programming."
+                                        android:layout_gravity="end"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="But you must be ready to \n learn it."/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Do I need a degree or\n educational qualifications?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No, you dont need any degree\n or educational qualifications"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="What are the eligibility \nCriteria to join SPS?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Applicant should have basic \nMathematical skills such as addition,\nSubstraction, multiplication,and division."
+                                        />
+                                    <TextView
+                                    android:layout_marginTop="5sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/messagebackgroundcustomer"
+                                    android:textColor="@color/white"
+                                    android:padding="10dp"
+                                    android:text="Ability to read and write in English."
+                                    />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I learn specific domain\nlike cyber security, datascience AI/ML  etc..\n At SPS"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Yes, you can choose any domain\nas you wish"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="We dont control what you learn"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Everything is self learnt and learnt from peers."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="What are the Admission \nProcedure of SPS?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="1. Submit an online application on this website."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="2.You will get an interview call \nfrom SPS at the date and \ntime you have picked up."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="3. If you qualify the interview\nYou will get a joining date and other\nother details via mail."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="4.Pay the refundable caution deposit amount and confirm\nyour seat. "
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="How do Iprepare for the SPS\n Interview?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="SPS interview consists of very basic \nprogramming questions and few \n general questions about yourself."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I apply again if I failed the interview?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Yes you can apply till you get qualified."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="But be prepared thoroughly before you make\neach attempt."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Will I have to pay any fee upfront?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No.There are no upfront fees and you pay via \nan ISA (detailed explanation in the following Questions)once you get a job"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="However , we request a fully refundable deposit \n of Rs.10,000 once you get selected, to confirm your\nseat in a batch "
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="We do this because we have limited seates in the program\nand we need to make sure someone else cannot take \naway this opportunity from you by fase confirmation."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="We refund the full amount of Rs.10,000 when you complete the program."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I pay the tution fee upfront and Avoid ISA?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Yes, you can pay a one time fee of Rs.52,500+GST \nas a Cource fee and you dont have to sign ISA."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Are there any other Hidden Charges?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No, there no other hidden charges like admission fee, \n Exam fee, blah blah bla.."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="But candidates are requested to pay a small amount for \nThe infra structure facilities that you use like internet ,dedicated work space , \ncleaning and maintenance etc...,"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="which usually ranges between Rs.3000-4000 per month \ depends upon the SPS hub you get."
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="What is ISA and how does it work"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="An ISA or income share agreement is used for paying SPS tution once you have \ngot a job at the salary you deserve"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="You will pay 15% of your monthly income for a maximum cap amount of Rs. 2 Lakhs."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Since SPS does not charge any fees upfront the ISA \nmodel incentivises us to provide superior training and acces to the \nhighest paying opportunities for you"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="What happens if I quite the program? \n Do I still have to pay?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="If you quit or do not pass the perfomance reviews\n during the program, you will not be bound by the income share \n agreement and we will go our seperate ways."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="When is the security deposit not refunded?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="The two scenarios where your securty deposite will not \nbe refunded are,\n1. If you fail to attend the fumigation period in any case\n2.Getting terminated from the 6 month program due to your deliberate poor perfomance"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="This is the only way we can hold you accountable and stay away \n from nom serious candidate"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I end the contract early?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Yes, If you would like to end your contract early, you can pay the\namount equivalent to the payment cap on the contract minus any payments\n already made."
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Does SPS help me get a job?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="We do everything we possibly can..!!"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="We have a full team dedicated to career Development."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="They help you prepare a resume and portfolio,\npractice interviews, and even help\n you in salary negotiation"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="T the end of the day through, you are the\n one who needs to apply,interview and land the job."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Do I have to take the first job I am offered?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No,we dont control where you work."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Since developers tend to get raises fairely quickly, \nwe do recommend not over optimizng your job as fast as possible"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Do I have to work for the same\n company for 36 months? \n Can I switch jobs?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No,its all up to you."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="You can switch whenever you want"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="When do my ISA repayments start?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Your ISA payments start when you start earning"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="If you didnt get any job 6 months\nafter you complete the SPS program,the ISA automatically expires after 6 such\n deffered-payment months"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="What is the interest rate forr the ISA?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="ISA are not loans so they have no interest"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I attend the program online?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No,there are no online batches for SPS."
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="If you want to achieve something worthwhile \nin life, you must be ready to move."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Can I attend the program as part-time?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="No, SPS programs are full-time"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="You cannot achieve anything worth while in life being\n a part-timer."
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="Do I need to bring my own laptop?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Yes, you should carry a laptop with a minimu requirement of\n4GB RAM ,10GB HDD,1.6GHz processor"
+                                        />
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="If you dont have one try to get atleast a used one"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_gravity="end"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcross"
+                                        android:textColor="@color/black"
+                                        android:padding="10dp"
+                                        android:text="I want to join SS.What should I do?"
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="5sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/messagebackgroundcustomer"
+                                        android:textColor="@color/white"
+                                        android:padding="10dp"
+                                        android:text="Click on the Apply now button and submit your application\nAll the best."
+                                        />
+                                </LinearLayout>
+                                <ScrollView
+                                    android:background="@color/white"
+                                    android:padding="5dp"
+                                    android:layout_marginTop="50sp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Copyright ©Packapeer Academy Pvt Ltd 2022"/>
+                                </ScrollView>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+                </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

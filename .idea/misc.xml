@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/apply_button_background.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/cardviestudentlistbackground.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/ceremony_play_icon.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/computer_icon.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/messagebackground.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/messagebackgroundcross.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/messagebackgroundcustomer.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/play_icon.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/registerbutton.xml" value="0.236" />
+        <entry key="app/src/main/res/layout/abc.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_map_brototype_kochi.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_students_full_deatails.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/activity_students_list_view.xml" value="0.31666666666666665" />
+        <entry key="app/src/main/res/layout/activity_user_otpverification.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/activity_user_registration.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/studentdatacard.xml" value="0.353125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

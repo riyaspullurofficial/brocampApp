@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3sp">
+    <LinearLayout
+        android:id="@+id/cardRahulTVStudentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/cardviestudentlistbackground"
+        android:padding="6dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nameCardTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rahul"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/qualificationCardTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.Tech"
+                android:textColor="#001832"/>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/registrationSelectionCardTV"
+            android:layout_marginStart="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:text="Registration Selection"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/placeCardTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tirur"
+                android:textColor="#002002"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/mobileCardTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9072990008"
+                android:textColor="#2D0253"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
