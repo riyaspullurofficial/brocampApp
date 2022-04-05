@@ -1,68 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@android:color/transparent"
     android:layout_height="wrap_content"
     android:layout_margin="3sp">
-    <LinearLayout
 
-        android:id="@+id/cardTVStudentListLinear"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@drawable/cardviestudentlistbackground"
-        android:padding="6dp"
-        >
-        <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_height="70sp">
+
+
+        <TextView
+            android:id="@+id/nameCardTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10sp"
-            android:layout_gravity="start"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/nameCardTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rahul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18sp"/>
-            <TextView
-                android:id="@+id/qualificationCardTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="B.Tech"
-                android:textColor="#001832"/>
-        </LinearLayout>
+            android:text="Rahul"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <TextView
+            android:id="@+id/qualificationCardTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech"
+            android:textColor="#001832"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725" />
+
         <TextView
 
             android:id="@+id/registrationSelectionCardTV"
-            android:layout_marginStart="10sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:text="Registration Selection"
             android:textColor="#FF0000"
-            android:text="Registration Selection"/>
-        <LinearLayout
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.549" />
+
+        <TextView
+            android:id="@+id/placeCardTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10sp"
-            android:orientation="vertical">
+            android:text="Tirur"
+            android:textColor="#002002"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.087" />
 
-            <TextView
-                android:id="@+id/placeCardTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tirur"
-                android:textColor="#002002"
-                android:textSize="18sp" />
-            <TextView
-                android:id="@+id/mobileCardTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9072990008"
-                android:textColor="#2D0253"/>
-        </LinearLayout>
-
-    </LinearLayout>
+        <TextView
+            android:id="@+id/mobileCardTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9072990008"
+            android:textColor="#2D0253"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

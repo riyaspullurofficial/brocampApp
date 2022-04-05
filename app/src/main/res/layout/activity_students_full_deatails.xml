@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <TextView
-            android:id="@+id/registrationSelectionTV"
+            android:id="@+id/registrationSelectionTVfull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registration Selection"
@@ -147,7 +147,7 @@
             app:layout_constraintVertical_bias="0.012" />
 
         <TextView
-            android:id="@+id/fullNameET"
+            android:id="@+id/fullNameTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -163,7 +163,7 @@
             app:layout_constraintVertical_bias="0.082" />
 
         <TextView
-            android:id="@+id/placeET"
+            android:id="@+id/placeTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -179,7 +179,7 @@
             app:layout_constraintVertical_bias="0.145" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/genderTVfull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gender"
@@ -193,7 +193,7 @@
             app:layout_constraintVertical_bias="0.201" />
 
         <TextView
-            android:id="@+id/emailET"
+            android:id="@+id/emailTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -209,7 +209,7 @@
             app:layout_constraintVertical_bias="0.256" />
 
         <TextView
-            android:id="@+id/contactET"
+            android:id="@+id/contactTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -225,7 +225,7 @@
             app:layout_constraintVertical_bias="0.318" />
 
         <TextView
-            android:id="@+id/employeeStatusET"
+            android:id="@+id/employeeStatusTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -241,7 +241,7 @@
             app:layout_constraintVertical_bias="0.381" />
 
         <TextView
-            android:id="@+id/qualificationET"
+            android:id="@+id/qualificationTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -257,7 +257,7 @@
             app:layout_constraintVertical_bias="0.444" />
 
         <TextView
-            android:id="@+id/collegeNameET"
+            android:id="@+id/collegeNameTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -273,7 +273,7 @@
             app:layout_constraintVertical_bias="0.507" />
 
         <TextView
-            android:id="@+id/graduationYearET"
+            android:id="@+id/graduationYearTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -289,7 +289,7 @@
             app:layout_constraintVertical_bias="0.57" />
 
         <TextView
-            android:id="@+id/tellmeMoreET"
+            android:id="@+id/tellmeMoreTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -305,7 +305,7 @@
             app:layout_constraintVertical_bias="0.633" />
 
         <TextView
-            android:id="@+id/whyDoYouJoinSPSET"
+            android:id="@+id/whyDoYouJoinSPSTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -321,7 +321,7 @@
             app:layout_constraintVertical_bias="0.696" />
 
         <TextView
-            android:id="@+id/whatMotivationET"
+            android:id="@+id/whatMotivationTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"
@@ -337,7 +337,7 @@
             app:layout_constraintVertical_bias="0.759" />
 
         <TextView
-            android:id="@+id/wherefromhearaboutSPSSET"
+            android:id="@+id/wherefromhearaboutSPSSTVfull"
             android:layout_width="307dp"
             android:layout_height="33dp"
             android:ems="10"

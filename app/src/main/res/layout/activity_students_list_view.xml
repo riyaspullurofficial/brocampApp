@@ -183,7 +183,8 @@
             android:layout_width="match_parent"
             android:layout_height="430sp"
             android:layout_margin="10sp"
-            android:background="#e1e1d0"
+            android:background="@color/black"
+            android:padding="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -194,13 +195,13 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerviewStudentlist"
                 android:layout_width="match_parent"
+                android:background="@color/white"
                 android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:itemCount="20"
                 tools:listitem="@layout/studentdatacard" />
             <!--            <ScrollView-->
             <!--                android:layout_width="match_parent"-->
